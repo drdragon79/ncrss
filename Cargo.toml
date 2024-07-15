@@ -1,0 +1,14 @@
+[package]
+name = "ncsrs"
+version = "0.0.1"
+edition = "2021"
+description = "A simple reverse shell stabalizer!"
+authors = ["Akshay <drdragon79@proton.me"]
+license = "MIT"
+keywords = ["reverse shell", "shell", "stabalizer", "cli"]
+
+
+[dependencies]
+clap = { version = "4.5.8", features = ["derive"] }
+crossterm = "0.27.0"
+log = "0.4.22"
